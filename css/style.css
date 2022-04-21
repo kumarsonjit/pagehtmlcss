@@ -1,0 +1,179 @@
+/* common start  */
+body{
+  font-family:sans-serif;
+  font-size:16px;
+  font-weight:400px;
+  color:#0f2656;
+  margin:0;
+  padding:0;
+}
+/* common end  */
+
+/* header start  */
+header{
+  width:100%;
+  border-bottom: 2px solid #0f265621;
+  overflow:hidden;
+  padding:20px 0;
+}
+.container{
+  width:90%;
+  margin:0 auto;
+}
+.logo{
+  width:8%;
+  float:left;
+}
+.logo img{
+  width:100%;
+}
+.menucontent{
+  width:60%;
+  float:right;
+}
+.menucontent ul{
+ float:right;
+}
+.menucontent ul li{
+  float:left;
+  list-style:none;
+}
+.menucontent ul li a{
+  font-size:18px;
+  color:#0f2656;
+  padding:0 25px;
+  text-decoration:none;
+  display:inline-block;
+}
+.menucontent ul li:last-child a{
+  padding-right:0px;
+}
+/* header end */
+/* banner start  */
+.banner{
+padding:50px 0;
+}
+.container2{
+width:70%;
+margin:0 auto;
+}
+.btext{
+text-align:center;
+}
+.btext h1{
+font-size:50px;
+margin:0 165px 30px;
+line-height:60px;
+}
+.btext h1 span{
+color:#0084ff;
+}
+.btext p{
+padding:10px;
+font-size:17px;
+margin:0 90px 25px;
+line-height:30px;
+}
+.bimage{
+width:75%;
+margin:0 auto;
+}
+.bimage img{
+width:100%;
+}
+/* banner end  */
+/* success start  */
+.success{
+padding:50px 0;
+}
+.s_content{
+  overflow:hidden;
+  padding:0 15px;
+}
+.s_left{
+width:45%;
+float:left;
+padding:20px 20px;
+}
+.s_left h2{
+font-size:40px;
+color:#f15767;
+margin:0;
+text-align:right;
+}
+.s_left p{
+font-size:18px;
+color:#0f2656;
+text-align:right;
+padding-left:70px;
+}
+.s_right{
+  width:45%;
+  float:right;
+  padding:10px 20px;
+}
+.s_right h1{
+font-size:52px;
+margin:0;
+}
+/* success end */
+/* service start  */
+
+.service{
+padding:50px 0;
+overflow:hidden;
+}
+.s_wrapper{
+
+}
+.red{
+background-color:#fdebed;
+}
+.green{
+background-color:#EBF9F4;
+}
+.blue{
+background-color:#FFF7E8;
+}
+.s_single{
+width:27%;
+padding:50px 29px;
+float:left;
+margin-right:25px !important;
+}
+.s_single:last-child{
+  margin-right:0;
+}
+.s_img{
+
+}
+.s_img img{
+width:100%;
+}
+.s_text{
+
+}
+.s_text h2{
+
+}
+.s_text p{
+
+}
+
+/* service end  */
+footer{
+  background-color:#008AFF;
+  padding:28px 0;
+}
+.ftext{
+  text-align:center;
+}
+.ftext p{
+  margin:0;
+
+}
+.ftext a{
+  color:#ffffff;
+  text-decoration:none;
+
+}
